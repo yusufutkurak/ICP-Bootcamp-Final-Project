@@ -1,5 +1,4 @@
 
-https://github.com/yusufutkurak/ICP-Bootcamp-Final-Project/assets/107929430/fa39b192-cf43-4951-8c56-3b42de166968
 # ICP-Bootcamp-Final-Project
 <img src="https://github.com/yusufutkurak/ICP-Bootcamp-Final-Project/assets/107929430/1bb07613-6f88-4ad2-9d2b-a461a62a1d83" width="300" height="300" align="right">
 
@@ -7,9 +6,13 @@ Bu proje, D&D 3.5 kurallarına uygun olarak, WEB3 altyapısını kullanarak benz
 
 Siteye giriş yaptığınızda, ilk adımda karakterinizi tanıtıp resmini oluşturabilirsiniz. Daha sonra ırk ve sınıf bilgilerinizi girip, yetenek zarlarınızı atarak bu karakteri kaydedebilirsiniz. Bu süreç, karakter yaratma deneyiminizi kişiselleştirir ve tamamen size özel bir macera sunar.
 
+
 !!DALL-E apı anahtarı github a atıldığı zaman otomatik kendini pasif hale getiriyor bu yüzden projeyi kurup da deneme yapmak isterseniz api anahtarı için bana ulaşabilirsiniz.
 - **E-posta:** [E-posta Adresim](yusufgmut@gmail.com)
 - **LinkedIn:** [Profilim]([https://www.linkedin.com/in/kullaniciadi](https://www.linkedin.com/in/yusuf-utkurak-046529205/))
+
+  
+https://github.com/yusufutkurak/ICP-Bootcamp-Final-Project/assets/107929430/fa39b192-cf43-4951-8c56-3b42de166968
 
 #Proje kurulumu
 Projeye `node_modules` dosyaları dahil değildir.  
