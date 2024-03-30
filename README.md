@@ -60,7 +60,7 @@ Projeyi çalıştırma adımları:
 
 Projeyi bu adımları takip ederek başarıyla çalıştırabilirsiniz, iyi eğlenceler.
 
-## Fonksiyonlar
+## Fonksiyonlar-React
 
 ### `getRandomNumber`
 - Her zar atma işlemi için 1-6 arası rastgele bir sayı üretir.
@@ -107,6 +107,41 @@ Karakter veri tipi şu özelliklere sahiptir:
 
 ### `RandDice`
 - Rastgele atılan zarları kullanıcıya gösterir.
+
+
+## Fonksiyonlar-Motoko
+
+### `createCharacter`
+- Bu fonksiyon bir karakter nesnesi oluşturulmasını ve oluşturulan nesnenin Trie yapısına kaydedilip şifrelenmesini sağlar.
+
+### `readCharacter`
+- Bu fonksiyon id si verilen karakteri Trie yapısından bulup parametre olarak geri döndürür.
+
+### `Update-Delete`
+- Karakterleri güncelleme ve silme işlemleri bu fonksiyonlarda yapılır, Trie yapsının fonksiyonları kullanılır.
+
+### `Trie find-replace`
+- Trie yapısında arama yapıp istediğimiz değeri bulanilmemiz için find, yeniden yapılandırmamız için ise replace fonksiyonunu kullanırız
+
+  
+## Motoko-Type
+- Character type:
+- `character_name`: Karakterin adı.
+- `character_classes`: Karakterin sınıfı.
+- `character_race`: Karakterin ırkı.
+- `character_img`: Karakterin resmi.
+- `character_ability`: 6 adet yetenek barındıran bir liste.
+
+- Ability type:
+- `strength`: Karakterin fiziksel gücü.
+- `dexteriy`: Karakterin mahareti, çevikliği.
+- `constitution`: Karakterin dayanıklılığı.
+- `intelligence`: Karakterin zekası.
+- `wisdom`: Karakterin bilgeliği
+- `charisma`: Karakterin karizması
+
+- CharacterID type:
+- NAT32 tipinde bir veri tutar, yani tam sayıdır karakterlerin id sini tutar 0 dan başlar her karakter oluşturulduğunda bir arttılır.
 
 ##Proje videosu
 
