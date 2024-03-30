@@ -121,12 +121,22 @@ ul li {
   max-width: 1800px;
 }
 
+
+.characterCard img {
+  max-width: 100%; /* Görüntüyü kapsayıcısına sığdırır */
+  height: auto; /* Yüksekliği orijinal en-boy oranını koruyacak şekilde ayarlar */
+  border-radius: 4px; /* Görüntünün kenarlarını yuvarlaklaştırır */
+}
+
 .characterCard {
+  display: flex; /* İçeriği yatay olarak hizala */
+  flex-direction: column; /* İçeriği dikey olarak sırala */
+  align-items: center; /* İçeriği yatay eksende ortala */
   background-color: #f9f9f9;
   border: 1px solid #ddd;
   padding: 20px;
   border-radius: 8px;
-  margin: 10px; /* Kartlar arasındaki boşluk */
-  flex: 0 0 calc(33.33% - 20px); /* Kartların genişliğini hesapla ve belirle */
-  max-width: calc(33.33% - 20px); /* Kartların maksimum genişliği */
+  margin: 10px; /* Kutular arasındaki boşluğu ayarlar */
+  flex: 0 0 calc(33.33% - 20px); /* Her kartın genişliğini belirler */
+  max-width: calc(33.33% - 20px); /* Kartların maksimum genişliğini sınırlar */
 }
