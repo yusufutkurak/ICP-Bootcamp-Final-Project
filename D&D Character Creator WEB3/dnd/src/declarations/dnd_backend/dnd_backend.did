@@ -1,0 +1,24 @@
+type CharacterID = nat32;
+type Character = 
+ record {
+   character_ability: Ability;
+   character_classes: text;
+   character_img: text;
+   character_name: text;
+   character_race: text;
+ };
+type Ability = 
+ record {
+   charisma: nat32;
+   constitution: nat32;
+   dexterity: nat32;
+   intelligence: nat32;
+   strength: nat32;
+   wisdom: nat32;
+ };
+service : {
+  createCharacter: (Character) -> (CharacterID);
+  delete: (CharacterID) -> (bool);
+  readCharacter: (CharacterID) -> (opt Character);
+  update: (CharacterID, Character) -> (bool);
+}

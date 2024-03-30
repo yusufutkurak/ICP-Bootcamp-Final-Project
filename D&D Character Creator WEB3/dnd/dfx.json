@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "dnd_backend": {
+      "main": "src/dnd_backend/main.mo",
+      "type": "motoko"
+    },
+    "dnd_frontend": {
+      "dependencies": [
+        "dnd_backend"
+      ],
+      "source": [
+        "src/dnd_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "dnd_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

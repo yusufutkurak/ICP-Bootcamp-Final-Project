@@ -1,0 +1,132 @@
+.navbar {
+  background-color: #333; /* Koyu gri arka plan */
+  color: white; /* Beyaz yazı rengi */
+  padding: 10px 20px; /* Kenar boşlukları */
+}
+
+.navbar-brand {
+  font-size: 20px; /* Başlık yazı boyutu */
+  font-weight: bold; /* Kalın font */
+}
+.App {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 20px auto; /* Sayfayı yatayda ortalar */
+  max-width: 1500px; /* Maksimum genişlik belirleme */
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.imageCreationBox, .diceRollBox, .characterList {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto; /* Sayfayı yatayda ortalar */
+}
+
+.button {
+  background-color: #7094bb; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px auto;
+  cursor: pointer;
+  border-radius: 4px;
+  width: max-content;
+}
+
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+select {
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+.characterCard {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.characterCard h3, .characterCard p {
+  margin: 10px 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.row img {
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.photoBox, .characterInfoBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #eee;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+.saveCharacterBox {
+  width: auto;
+  display: flex; /* Öğeleri yatay olarak hizala */
+  justify-content: center; /* Öğeleri yatay eksende ortala */
+  margin-top: 20px; /* Yukarıdan boşluk */
+}
+.characterList {
+  display: flex; /* Kartları yatayda hizala */
+  flex-wrap: wrap; /* Kartlar sığmadığında alt satıra geç */
+  justify-content: center; /* Kartları yatay eksende ortala */
+  max-width: 1800px;
+}
+
+.characterCard {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 10px; /* Kartlar arasındaki boşluk */
+  flex: 0 0 calc(33.33% - 20px); /* Kartların genişliğini hesapla ve belirle */
+  max-width: calc(33.33% - 20px); /* Kartların maksimum genişliği */
+}
