@@ -8,8 +8,8 @@ Bu proje, D&D 3.5 kurallarına uygun olarak, WEB3 altyapısını kullanarak benz
 Siteye giriş yaptığınızda, ilk adımda karakterinizi tanıtıp resmini oluşturabilirsiniz. Daha sonra ırk ve sınıf bilgilerinizi girip, yetenek zarlarınızı atarak bu karakteri kaydedebilirsiniz. Bu süreç, karakter yaratma deneyiminizi kişiselleştirir ve tamamen size özel bir macera sunar.
 
 !!DALL-E apı anahtarı github a atıldığı zaman otomatik kendini pasif hale getiriyor bu yüzden projeyi kurup da deneme yapmak isterseniz api anahtarı için bana ulaşabilirsiniz.
-- **E-posta:** [E-posta Adresim](mailto:ornekemail@example.com)
-- **LinkedIn:** [Profilim](https://www.linkedin.com/in/kullaniciadi)
+- **E-posta:** [E-posta Adresim](yusufgmut@gmail.com)
+- **LinkedIn:** [Profilim]([https://www.linkedin.com/in/kullaniciadi](https://www.linkedin.com/in/yusuf-utkurak-046529205/))
 
 #Proje kurulumu
 Projeye `node_modules` dosyaları dahil değildir.  
