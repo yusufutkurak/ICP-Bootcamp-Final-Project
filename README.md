@@ -147,6 +147,24 @@ Karakter veri tipi şu özelliklere sahiptir:
 - CharacterID type:
 - NAT32 tipinde bir veri tutar, yani tam sayıdır karakterlerin id sini tutar 0 dan başlar her karakter oluşturulduğunda bir arttılır.
 
+### Gelecek Fikirlerim
+Projeyi geliştirmeye devam ederken aşağıdaki özellikleri eklemeyi düşünüyorum. Bu fikirler, projeyi daha interaktif ve kullanıcı dostu hale getirmeyi amaçlıyor:
+
+- **Yaratık Oluşturma:** Kullanıcıların sadece karakterler değil, aynı zamanda düşman veya müttefik yaratıklar da oluşturabilmelerini sağlayacak bir özellik.
+
+- **Harita Oluşturma:** Oyuncuların maceraları için özel haritalar oluşturabilmelerine olanak tanıyan bir modül.
+
+- **Forum Sekmesi:** Kullanıcıların karakterleri hakkında oy kullanabilecekleri, tartışabilecekleri ve sohbet edebilecekleri bir alan.
+
+- **NFT Entegrasyonu:** Oluşturulan karakterlerin NFT (Non-Fungible Token) olarak kaydedilip, alınıp satılabilmesi.
+
+- **Özel Yetenekler:** Kullanıcıların karakterlerine özel yetenekler ekleyebilmesi, bu sayede daha kişiselleştirilmiş deneyimler sunması.
+
+- **Seviye Atlatma ve Gelişim:** Karakterlerin ve yaratıkların zamanla gelişebilmesi, seviye atlayarak yeni yetenek puanları ve HP (Sağlık Puanı) kazanabilmesi.
+
+Bu fikirler, projenin ilerlemesi ve topluluktan gelen geri bildirimler doğrultusunda şekillenecek. Her türlü öneri ve katkıya açığım, bu yüzden lütfen düşüncelerinizi paylaşmaktan çekinmeyin.
+
+
 ##Proje videosu
 
 [![Video Başlığı](https://img.youtube.com/vi/jlxFrG5FKQE/0.jpg)](https://www.youtube.com/watch?v=jlxFrG5FKQE)
