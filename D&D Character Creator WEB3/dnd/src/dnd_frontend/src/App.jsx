@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { dnd_backend } from 'declarations/dnd_backend';
 import './App.css';
 
-const DALLE_API_KEY = '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';
+const DALLE_API_KEY = '-----';
 
 const Ability = {
   strength: 0,
